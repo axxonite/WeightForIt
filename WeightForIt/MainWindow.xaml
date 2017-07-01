@@ -1,0 +1,25 @@
+﻿<Window x:Class="WeightForIt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WeightForIt"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="225.303">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="92"/>
+        </Grid.RowDefinitions>
+        <StackPanel Background="Black">
+            <Border Height="36" Background="Black" />
+            <Border Background="Black">
+                <TextBlock Foreground="White" Text="Ashley" TextAlignment="Center" FontWeight="Bold" FontSize="20" Margin="0,0,0,5" />
+            </Border>
+            <Border />
+            <Border />
+        </StackPanel>
+
+    </Grid>
+</Window>
