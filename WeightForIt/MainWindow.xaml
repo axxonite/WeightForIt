@@ -5,21 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WeightForIt"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="225.303">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition/>
-            <RowDefinition Height="92"/>
-        </Grid.RowDefinitions>
-        <StackPanel Background="Black">
-            <Border Height="36" Background="Black" />
-            <Border Background="Black">
-                <TextBlock Foreground="White" Text="Ashley" TextAlignment="Center" FontWeight="Bold" FontSize="20" Margin="0,0,0,5" />
-            </Border>
-            <Border />
-            <Border />
-        </StackPanel>
-
-    </Grid>
+        Title="Weight For It!" Width="450" Height="750" ScrollViewer.VerticalScrollBarVisibility="Disabled" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Frame NavigationUIVisibility="Hidden" Source="/WeightForIt;component/Start.xaml"/>
 </Window>
