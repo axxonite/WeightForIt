@@ -6,14 +6,14 @@
       xmlns:local="clr-namespace:WeightForIt"
       mc:Ignorable="d" 
       d:DesignHeight="750" d:DesignWidth="450"
-      Title="Start">
+      Title="Start" Loaded="Page_Loaded">
 
     <Grid Background="White">
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
-        <TextBlock Text="Hi Ashley!" TextAlignment="Center" FontSize="48" VerticalAlignment="Center" FontWeight="Bold"/>
-        <Button Content="Start!" HorizontalAlignment="Stretch" VerticalAlignment="Center" FontSize="60" Margin="40,0,40,3" IsDefault="True" Padding="0,10" Grid.Row="1" />
+        <TextBlock x:Name="WelcomeBlock" TextAlignment="Center" FontSize="48" VerticalAlignment="Center" FontWeight="Bold"/>
+        <Button x:Name="StartButton" Content="Start!" HorizontalAlignment="Stretch" VerticalAlignment="Center" FontSize="60" Margin="40,0,40,3" IsDefault="True" Padding="0,10" Grid.Row="1" Click="StartButton_Click" />
     </Grid>
 </Page>

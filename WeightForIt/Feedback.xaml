@@ -40,7 +40,7 @@
                     <TextBlock Text="20 reps"/>
                 </ComboBox>
             </StackPanel>
-            <Button Content="Ok" FontSize="36" Width="200" Padding="30,10" Margin="0,40"/>
+            <Button Content="Ok" FontSize="36" Width="200" Padding="30,10" Margin="0,40" Click="Button_Click"/>
 
         </StackPanel>
     </Grid>

@@ -24,5 +24,16 @@ namespace WeightForIt
         {
             InitializeComponent();
         }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            WelcomeBlock.Text = "Hi " + App.Instance.Username + "!";
+        }
+
+        private void StartButton_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("MainPage.xaml", UriKind.Relative));
+
+        }
     }
 }
